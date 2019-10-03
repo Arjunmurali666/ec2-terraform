@@ -1,6 +1,6 @@
 # ec2-terrafrom
 
-## Terraform - This is a code written in terraform to create 2 security groups and one ec2 instance in aws and the security group createde will be assigned to the ec2.
+## Terraform - This is a code written in terraform to create 2 security groups and one ec2 instance in aws and the security group created will be assigned to the ec2.
 
 ```tf
 provider "aws" {
