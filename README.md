@@ -75,7 +75,7 @@ resource "aws_instance" "webserver" {
     ami = "ami-00c03f7f7f2ec15c3" 
     instance_type = "t2.micro"
     key_name = "ansible"
-    availability_zone  = "us-east-2"
+    availability_zone  = "us-east-2a"
     associate_public_ip_address = true
     vpc_security_group_ids = [ "${aws_security_group.terraform-ssh.id}",
                                "${aws_security_group.terraform-webserver.id}"]
